@@ -11,8 +11,8 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableZuulProxy
 @EnableFeignClients
 public class SpringCloudClientConsumerApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudClientConsumerApplication.class, args);
 	}
+	 
 }
